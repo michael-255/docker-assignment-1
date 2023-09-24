@@ -11,6 +11,7 @@ stop:
 
 clean:
 	docker rmi $(NAME)
+	docker image prune
 
 info:
 	docker image ls
